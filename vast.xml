@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+    <Ad id="601364">
+        <InLine>
+            <AdSystem>DSP</AdSystem>
+            <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+            <Description>VAST 2.0 Instream Test 1</Description>
+            <Impression>http://myTrackingURL/impression</Impression>
+            <Creatives>
+                <Creative AdID="601364">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <VideoClicks>
+                            <ClickThrough>http://www.tremormedia.com</ClickThrough>
+                            <ClickTracking>http://myTrackingURL/click</ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/x-flv" bitrate="500" width="400" height="300" scalable="true" maintainAspectRatio="true">http://cdnp.tremormedia.com/video/acudeo/Carrot_400x300_500kb.flv</MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
+
